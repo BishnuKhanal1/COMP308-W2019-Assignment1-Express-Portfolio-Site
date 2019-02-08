@@ -40,3 +40,10 @@ p {
     font-size: 4rem;
   }
 }
+.customDiv {
+  margin: 3px;
+  min-height: 30px;
+  background-color: silver;
+  text-align: center;
+  font-size: large;
+}
