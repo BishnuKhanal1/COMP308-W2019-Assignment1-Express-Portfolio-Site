@@ -1,8 +1,90 @@
 <% include ./partials/header.ejs %>
-  <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to <%= title %> </h1>
-     
+  
+  <!--<h1 class="display-4">Welcome to <%= title %> </h1> -->
+
+  <!--Contents for Landing page/home page-->
+      
+  <% if (title == "Home"){%>    
+  <header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase">
+            <strong>Welcome to Bishnu's Portfolio</strong>
+          </h1>
+          <hr>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5">My primary aim is to become an innovative Java developer. My mission is to create a standard desktop application so as to servicing dynamic users into a single plateform</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="/about">Find Out More About Me</a>
+        </div>
+      </div>
     </div>
+  </header>
+<%} %>
+  <!--Contents for About page-->
+
+<% if (title == "About Me")
+      {%>
+       <div class="jumbotron">
+          
+        
+        
+
+
+
+       </div>
+        
+      <%} %>
+
+      <!--Contents for Projects page-->
+      <% if (title == "Projects")
+      {%>
+        <div class="jumbotron">
+        
+        
+        
+        
+        <h1>This is projects page </h1>
+
+        
+        </div>
+       
+      <%} %>
+
+      <!--Contents for Services page-->
+      <% if (title == "Services")
+      {%>
+        
+        <div class="jumbotron">
+        
+        
+        
+        
+        <h1>This is Services page </h1>
+        
+        
+        </div>
+        
+
+      <%} %>
+
+      <!--Contents for Services page-->
+      <% if (title == "Contact")
+      {%>
+        <div class="jumbotron">
+        
+        
+        
+        
+          <h1>This is contact page </h1>
+        
+        
+        </div>
+        
+
+      <%} %>
+
+    
   </div>
 <% include ./partials/footer.ejs %>
