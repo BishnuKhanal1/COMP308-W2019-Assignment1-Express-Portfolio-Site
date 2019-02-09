@@ -35,13 +35,14 @@ p {
     font-size: 3rem;
   }
 }
+
 @media (min-width: 1200px) {
   h1 {
     font-size: 4rem;
   }
 }
 .customDiv {
-  margin: 3px;
+  margin-top: 20px;
   min-height: 30px;
   background-color: silver;
   text-align: center;
