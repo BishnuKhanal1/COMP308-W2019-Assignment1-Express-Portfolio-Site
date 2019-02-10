@@ -44,7 +44,24 @@ p {
 .customDiv {
   margin-top: 20px;
   min-height: 30px;
-  background-color: silver;
+  background-color: 00;
   text-align: center;
   font-size: large;
+}
+footer {
+  padding-top: 5rem;
+}
+.project-name {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.project-name p {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card {
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-top: 3px;
 }

@@ -4,7 +4,8 @@
 
   <!--Contents for Landing page/home page-->
       
-  <% if (title == "Home"){%>    
+  <% if (title == "Home"){%>  
+    
   <header class="masthead text-center text-white d-flex">
     <div class="container my-auto">
       <div class="row">
@@ -21,9 +22,8 @@
       </div>
     </div>
   </header>
-<%} %>
-  
 
+<%} %>
 <% if (title == "About Me")
       {%>
 
@@ -37,45 +37,39 @@
     </div>
     <div class="row">
       <div class="col-md-8">
-        <div class="customDiv">
-          <h3>Perosnal Information</h3><hr>
-          <p>Name : Bishnu Khanal</p>
-          <p>Address : # 1705 - 283 Pharmacy Avenue </p>
-          <p>Toronto, ON M1L3G1 </p>
-          <p>Contact : </p>
-          <p>Phone: (647) 760-1545, Email: bkhanal837@gmail.com</p>
-          <p>Phone: (647) 760-1545, Email: bkhanal837@gmail.com</p>
-          <p>Phone: (647) 760-1545, Email: bkhanal837@gmail.com</p>
-          
-          </div> 
+        <div class="card">
+            <div class="customDiv">
+              <h3>Perosnal Information</h3>
+              <hr>
+              <p>Name : Bishnu P. Khanal</p>
+              <p>Mailing Address : </p> 
+              <p>Apartment# 1705 - 283 Pharmacy Avenue </p>
+              <p>Toronto, ON M1L3G1 </p>
+              <p>Contact Methods: </p>
+              <p>Phone: (647) 760-1545</p>
+              <p>Email: bkhanal837@gmail.com</p>
+            </div>
+        </div>     
       </div>
       <div class="col-md-4">
-        <div class="customDiv"><img src="../images/khanalBishnu.jpg " alt="my photo " height="400px"></div>
+          <div class="card">
+              <div class="customDiv"><img src="../images/khanalBishnu.jpg " alt="my photo " class="image-circle" height="400px"></div>
+          </div>      
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 mx-auto text-center">
+        <div class="card">
+        <div class="customDiv">
+        <p class="mb-4">Gained hands-on-experience working for an year for I+IT Cluster, Ontario Ministry of
+          Children, Community and Social Services, as a Programmer Analyst as a co-op student.</p>
+        <hr>
+        <p><a class="btn btn-primary btn-xl js-scroll-trigger" href="/services">Get Started!</a></p> 
+      </div>
       </div>
     </div>
   </div>
 
-        <section class="bg-default" id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading text-white">We've got what you need!</h2>
-                <hr class="light my-4">
-                <p class="text-faded mb-4">Gained hands-on-experience working for an year for I+IT Cluster, Ontario Ministry of Children, Community and Social Services, as a Programmer Analyst as a co-op student.
-              
-                </p>
-                <hr>
-                <p><a class="btn btn-primary btn-xl js-scroll-trigger" href="/services">Get Started!</a></p>
-                
-              </div>
-              
-            </div>
-          </div>
-        </section>
-
-
-
-       
         
       <%} %>
 
@@ -99,7 +93,9 @@
                 Category
               </div>
               <div class="project-name">
-                Project Name
+                Desktop Application for Online Book Store
+                <br>
+              <p>It was a classroom project completed in a team as a requirement of ASP.NET. Developed in C#, </p>
               </div>
             </div>
           </a>
@@ -112,7 +108,9 @@
                 Category
               </div>
               <div class="project-name">
-                Project Name
+                Android App for Student Registration Services
+                <br>
+              <p>An anroid application that allows students to log in and register for the courses available. They can select courses, pay online and allows admin to verify students registration. </p> 
               </div>
             </div>
           </a>
@@ -125,7 +123,9 @@
                 Category
               </div>
               <div class="project-name">
-                Project Name
+                 Desktop Application for Online Book Store
+                <br>
+              <p>It was a classroom project completed in a team as a requirement of ASP.NET. Developed in C#, </p>
               </div>
             </div>
           </a>
@@ -185,11 +185,6 @@
       </div>
     </div>
   </section>
-
-        
-        
-      
-        
 
       <%} %>
 
