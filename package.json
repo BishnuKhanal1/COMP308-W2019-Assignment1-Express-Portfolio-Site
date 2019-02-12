@@ -31,5 +31,13 @@
     "@types/node": "^10.12.18",
     "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BishnuKhanal1/COMP308-W2019-Assignment1-Express-Portfolio-Site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BishnuKhanal1/COMP308-W2019-Assignment1-Express-Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/BishnuKhanal1/COMP308-W2019-Assignment1-Express-Portfolio-Site#readme"
 }
